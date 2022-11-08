@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Телефонная книга</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-32x32.png">
+</head>
+<body>
+<div id="phonebook">
+   <table id="phonebook__result" style="border-collapse: collapse;">
+    <thead>
+      <tr>
+        <td style="padding: .500em;">
+          <span style="display: block;"> Имя</span>
+          <div style="display: block;">
+            <div style="font-size: .500em;">       
+            </div>
+            <div style="font-size: .500em;"> 
+            </div>
+          </div>
+        </td>
+        <td>
+          Номер
+        </td>
+        <td>
+          Действие
+        </td>
+      </tr>
+    </thead>
+    <tbody id="tbody"></tbody>
+  </table>
+  <form id="phonebook__form" novalidate="">
+    <div id="phonebook__form__adder">
+      <input autocomplete="off" class="form-control" id="inputName" placeholder="Введите имя" type="text" /><input autocomplete="off" class="form-control" disabled="" id="inputTel" placeholder="Введите телефон" type="tel" /><input class="btn btn-success" disabled="" id="buttonAdd" type="button" value="Добавить контакт" />
+    </div>
+  </form>
+</div>
+  <script  src="./script.js"></script>
+</body>
+</html>

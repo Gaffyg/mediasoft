@@ -1,0 +1,47 @@
+  padding {
+    padding: .100em;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+    font-size: 1.200em;
+    outline: none;
+    margin-right:0.25em;
+  }
+  p {
+    background: #727272;
+    margin: auto;
+  }
+  thead> tr> td {
+    font-weight: bold;
+    background: #a3a1a1;
+    margin: auto;
+  }
+  #phonebook {
+    background: #b6b6b679;
+    margin-bottom: 25px;
+  }
+  #phonebook,
+  p {
+    margin-top: 30px;
+    border-radius: 4px;
+    width: 19%;
+    margin-left: 700px;
+    border: .010em solid #000000;
+  }
+  #phonebook__form{
+    display: block;
+    width: 101.3%;
+  }
+  #phonebook__result td {
+    width: 1%;
+    font-size: .500em;
+    border: .010em solid #00000052;
+    text-align: center;
+    margin: auto;
+  }
+  #phonebook__result {
+    display: block;
+    width: 100%;
+  }
